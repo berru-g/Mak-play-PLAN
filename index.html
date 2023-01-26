@@ -6,16 +6,18 @@ https://berru-g.github.io/Make-Play/
 
 <head>
   
-<!-- Google tag (gtag.js) 
+<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-1Z1V2M1VJ2"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', 'G-1Z1V2M1VJ2');
-</script>-->
-  
 
+  gtag('config', 'G-1Z1V2M1VJ2');
+</script>
+  
+<meta name="contrôleur midi " content="Contrôleur DAW made in Nantes">
+  <meta name="tuto" content="Interface USB, Contrôleur MIDI universel,Contrôleur DAW, MIDI, DIY, made in France">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>make&amp;play PLAN</title>
@@ -35,11 +37,9 @@ https://berru-g.github.io/Make-Play/
   <a href="https://github.com/berru-g/Microcontroller-USB-midi/tree/main/Projet-dod-berru/3D">Plan 3D</a> •
   <a href="https://github.com/berru-g/Microcontroller-USB-midi/pulls">Contribution</a> •
   <a href="https://www.gnu.org/licenses/old-licenses/gpl-2.0.html">GNU License v2.0</a> •
-  <a href="https://berru-g.github.io/Make-Play/">🛒</a> •
-  <a href="mailto:lea-bruger@outllok.fr">A.S.S</a>
-</p>
+  <a href="https://www.tindie.com/stores/makeandplay/">🛒</a> 
 <h2 id="what-is-this-">What is this ?</h2>
-<p>Microcontroller usb midi lowcost To play on <a href="https://ableton.com">Ableton</a>, Arena or any other music or video creation software.</p>
+<p>Microcontroller usb midi lowcost To play on <a href="https://ableton.com">Ableton</a>, Arena or any other music or video creation software.This is a DAW controller</p>
 <p><em>This tool will allow you to map your effects to the desired potentiometer and key. </em></p>
 <p><em>To do this, do [ ctrl+m ] in Ableton, select effet and push your btn or pot. </em></p>
   <p align="center">🎹 - &#128187; - &#128266;</p>
@@ -47,24 +47,27 @@ https://berru-g.github.io/Make-Play/
   <style>#draft{color:#0800ff;} #buy{color: #f64f4f;}</style>
 
 <h2 id="option">Option</h2>
-<p>Refer directly to your plan according to the format of your M&amp;P or you can feed your curiosity</p>
 <ul>
 <li>The version plug &amp; play</li>
-<li>The DIY Kit</li>
-<li>The soldering kit</li>
-  
+<li>The soldering Kit</li>
+<li>Only PCB</li>
+  <p>For this project you need;</p>
+
   <p> 1 × <a href="https://amzn.to/3DiHAEi">arduino pro micro usb c </a>
-  <p> 9 × <a href="https://amzn.to/3wsWmV0">potentiometer </a>
+  <p> 12 × <a href="https://amzn.to/3wsWmV0">potentiometer </a>
   <p> 1 × <a href="https://amzn.to/3WEVqHT">header pin mal 254 </a>
-    
+     <p> 5 × <a href="https://amzn.to/3XYXQSJ">push button </a>
+     
+       <p> 1 × <a href="https://www.tindie.com/products/makeandplay/controller-midi-usb-pcb-only/">me PCB ? </a>
+         
 <iframe align="right" sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=FR&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=makeandplay24-21&language=fr_FR&marketplace=amazon&region=FR&placement=B0B8H6XJJT&asins=B0B8H6XJJT&linkId=64df1ce969d67947b29b56c167123b5b&show_border=true&link_opens_in_new_window=true"></iframe>
     
-<p align="right" id="buy">choice your version<a href="https://berru-g.github.io/Make-Play/"> 🛒</a></p>
+<p align="right" id="buy">choice your version<a href="https://www.tindie.com/stores/makeandplay/"> 🛒</a></p>
 </ul>
 <h2>Plan step by step</h2> 
 <h3 id="step-1---code--">Step 1 - code for adapt your project if necessary-</h3>
-<pre><code>#include &lt;MIDI.h&gt; 
-Use if using with ATmega32U4 - Micro, Leonardo... 
+<pre><code>#include &lt;Arduino.h&gt; 
+Use for ATmega32U4  
 #include "MIDIUSB.h
 </code></pre>
 
@@ -114,6 +117,9 @@ Use if using with ATmega32U4 - Micro, Leonardo...
     <p align="center"><img src="https://github.com/berru-g/Make-play-PLAN/blob/main/src/potwithXIAOd.jpg?raw=true" width="400px" alt="github.com/berru-g"></p>
     <p align="center"> Shield with multiplexer for Xiao Seeed.</p>
     <p align="center"><img src="https://github.com/berru-g/Make-play-PLAN/blob/main/src/multi.png?raw=true" width="400px" alt="github.com/berru-g"></p>
+    
+        <p align="center"> Controller DAW nine pot's.</p>
+    <p align="center"><img src="https://github.com/berru-g/MAKE_PLAY-1/blob/master/img/cube9X9.jpg?raw=true" width="400px" alt="github.com/berru-g"></p>
     
 <h2 align="center"> 2020 v-1.0.1</h2>
 <p><a href="https://berru-g.github.io/Make-Play/">Make and play</a>  is Free, for used and/or modify it under the terms of the <a href="https://www.gnu.org/licenses/gpl.html">GNU General Public License</a> .</p>
